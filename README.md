@@ -25,6 +25,8 @@ Este proyecto implementa un sistema distribuido compuesto por múltiples nodos q
 ```bash
 git clone https://github.com/Majo1803/Sistema-Distribuido-con-Monitoreo-Autom-tico-.git
 cd Sistema-Distribuido-con-Monitoreo-Autom-tico-
+pip install -r requirements.txt
+redis-server
 
 
 

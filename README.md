@@ -17,3 +17,14 @@ Este proyecto implementa un sistema distribuido compuesto por múltiples nodos q
 ## Estructura del Proyecto
 /sistema_distribuido/ ├── coordinador.py # Envío de tareas ├── trabajador.py # Nodo que procesa tareas ├── tareas/ # Imágenes originales a procesar ├── resultados/ # Resultados con detección facial ├── utils/ │ └── deteccion_facial.py # Lógica de detección con OpenCV ├── requirements.txt # Librerías necesarias └── README.md # Este archivo
 
+---
+## 🚀 Instalación y Ejecución
+
+### 1. Clona el repositorio
+
+```bash
+git clone https://github.com/Majo1803/Sistema-Distribuido-con-Monitoreo-Autom-tico-.git
+cd Sistema-Distribuido-con-Monitoreo-Autom-tico-
+
+
+

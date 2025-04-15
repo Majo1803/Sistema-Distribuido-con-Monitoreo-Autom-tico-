@@ -18,10 +18,6 @@ Este proyecto implementa un sistema distribuido basado en múltiples nodos coope
 
 Sistema-Distribuido-con-Monitoreo-Autom-tico-/ ├── coordinador.py ├── trabajador.py ├── tareas/ # Imágenes a procesar ├── resultados/ # Imágenes procesadas ├── utils/ │ └── deteccion_facial.py ├── requirements.txt └── README.md
 
-yaml
-Copiar
-Editar
-
 ---
 
 ## 🚀 Instalación y Ejecución
@@ -31,65 +27,56 @@ Editar
 ```bash
 git clone https://github.com/Majo1803/Sistema-Distribuido-con-Monitoreo-Autom-tico-.git
 cd Sistema-Distribuido-con-Monitoreo-Autom-tico-
+```
 2. Instala las dependencias
-bash
-Copiar
-Editar
+```bash
 pip install -r requirements.txt
+```
 3. Inicia Redis (debes tenerlo instalado)
-bash
-Copiar
-Editar
+```bash
 redis-server
+```
 4. Agrega imágenes JPG a la carpeta tareas/
 Usa imágenes con rostros para obtener mejores resultados.
 
 5. Ejecuta los nodos
 En una o más terminales:
 
-bash
-Copiar
-Editar
+```bash
 python trabajador.py
+```
 En otra terminal, para enviar tareas:
 
-bash
-Copiar
-Editar
+```bash
 python coordinador.py
+```
 Los resultados se guardarán en la carpeta resultados/.
+---
 
-⚙️ Tecnologías Utilizadas
-Python 3.8+
+## ⚙️ Tecnologías Utilizadas
+-Python 3.8+
+-OpenCV
+-Redis
+-NumPy
 
-OpenCV
+##Arquitectura distribuida basada en microservicios
 
-Redis
-
-NumPy
-
-Arquitectura distribuida basada en microservicios
-
-📌 Estado del Proyecto
+###📌 Estado del Proyecto
 Fase	Estado
-Distribución básica	✅ Completada
-Monitoreo de recursos	🔄 En desarrollo
-Optimización automática	🔜 Por implementar
-Dashboard de visualización	🔜 Por implementar
-👩‍💻 Autores
+-Distribución básica	✅ Completada
+-Monitoreo de recursos	🔄 En desarrollo
+-Optimización automática	🔜 Por implementar
+-Dashboard de visualización	🔜 Por implementar
+
+##👩‍💻 Autores
 Este proyecto es desarrollado por:
 
-María José @Majo1803
+María José  Solís @Majo1803
+Minerva Cardenas Miranda
 
-(Agrega aquí otros miembros del equipo si aplica)
 
-Profesor guía: [Nombre del docente]
+Profesor guía: Jorge Alfaro
 
-📄 Licencia
-Proyecto de carácter académico, desarrollado como parte del curso de Sistemas Distribuidos (I Semestre 2025).
-
-yaml
-Copiar
-Editar
-
+##📄 Licencia
+Proyecto de carácter académico, desarrollado como parte del curso de Sistemas Operativos (I Semestre 2025).
 ---

@@ -1,6 +1,6 @@
 # Sistema Distribuido con Monitoreo Automático y Procesamiento Cooperativo
 
-Este proyecto implementa un sistema distribuido basado en múltiples nodos cooperativos que realizan tareas de procesamiento de imágenes, específicamente **detección facial**, bajo la coordinación de un nodo central. Forma parte del desarrollo académico de la asignatura **Sistemas Distribuidos (I Semestre 2025)**.
+Este proyecto implementa un sistema distribuido basado en múltiples nodos cooperativos que realizan tareas de procesamiento de imágenes, específicamente **detección facial**, bajo la coordinación de un nodo central. Forma parte del desarrollo académico de la asignatura **Sistemas Operativos (I Semestre 2025)**.
 
 ---
 

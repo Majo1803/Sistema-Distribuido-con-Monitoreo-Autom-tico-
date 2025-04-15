@@ -59,16 +59,16 @@ Los resultados se guardarán en la carpeta resultados/.
 -Redis
 -NumPy
 
-##Arquitectura distribuida basada en microservicios
+### Arquitectura distribuida basada en microservicios
 
-###📌 Estado del Proyecto
+### 📌 Estado del Proyecto
 Fase	Estado
 -Distribución básica	✅ Completada
 -Monitoreo de recursos	🔄 En desarrollo
 -Optimización automática	🔜 Por implementar
 -Dashboard de visualización	🔜 Por implementar
 
-##👩‍💻 Autores
+## 👩‍💻 Autores
 Este proyecto es desarrollado por:
 
 María José  Solís @Majo1803

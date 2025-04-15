@@ -77,6 +77,6 @@ Minerva Cardenas Miranda
 
 Profesor guía: Jorge Alfaro
 
-##📄 Licencia
+## 📄 Licencia
 Proyecto de carácter académico, desarrollado como parte del curso de Sistemas Operativos (I Semestre 2025).
 ---

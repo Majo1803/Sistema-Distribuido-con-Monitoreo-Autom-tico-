@@ -53,7 +53,7 @@ python coordinador.py
 Los resultados se guardarán en la carpeta resultados/.
 ---
 
-## ⚙️ Tecnologías Utilizadas
+## ⚙️Tecnologías Utilizadas
 -Python 3.8+
 -OpenCV
 -Redis
